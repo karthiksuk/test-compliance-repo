@@ -2,6 +2,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Trade:
+    """A simple data class for a single trade."""
     trade_id: str
     account_id: str
     amount: float
